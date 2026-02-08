@@ -423,7 +423,7 @@ address {
 .subscribe-container {
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: 80px;
+  margin-left: auto;
   padding: 0;
 }
 
@@ -659,10 +659,6 @@ input[type="email"]::placeholder {
   display: flex;
   align-items: center;
   cursor: pointer;
-  font-size: 12px;
-  line-height: 1.16667;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
 }
 
 .checkbox-input {
@@ -700,7 +696,15 @@ input[type="email"]::placeholder {
   opacity: 1;
 }
 
-.modal-link {
+.checkbox-text {
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.checkbox-text .modal-link {
+  display: inline-block;
   line-height: 1.33333;
   text-decoration: underline;
   text-decoration-skip-ink: none;
